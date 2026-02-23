@@ -16,15 +16,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CollegeMascots" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sya-sz-ZlX">
-                                <rect key="frame" x="80.666666666666686" y="118" width="231.66666666666663" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CollegeMascots" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Sya-sz-ZlX">
+                                <rect key="frame" x="80.666666666666671" y="118" width="231.66666666666663" height="36"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.070588235289999995" green="0.070588235289999995" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="rOj-zl-0vy">
                                 <rect key="frame" x="25" y="254" width="343" height="465"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="sectionIndexColor" red="0.070588235289999995" green="0.070588235289999995" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="sectionIndexBackgroundColor" red="0.4823529412" green="0.68627450980000004" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="sectionIndexTrackingBackgroundColor" red="0.4823529412" green="0.68627450980000004" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell1" textLabel="bQa-HO-gl9" detailTextLabel="9Sd-Xu-I7D" style="IBUITableViewCellStyleValue1" id="2uB-WB-rRO">
                                         <rect key="frame" x="0.0" y="50" width="343" height="51"/>
@@ -33,22 +36,26 @@
                                             <rect key="frame" x="0.0" y="0.0" width="343" height="51"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bQa-HO-gl9">
-                                                    <rect key="frame" x="20.000000000000004" y="14" width="39.333333333333336" height="24"/>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="0.5" id="bQa-HO-gl9">
+                                                    <rect key="frame" x="19.999999999999996" y="15.000000000000002" width="35.666666666666664" height="21.666666666666668"/>
                                                     <autoresizingMask key="autoresizingMask"/>
-                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="20"/>
-                                                    <nil key="textColor"/>
+                                                    <color key="backgroundColor" red="0.4823529412" green="0.68627450980000004" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="18"/>
+                                                    <color key="textColor" red="0.070588235289999995" green="0.070588235289999995" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Detail" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9Sd-Xu-I7D">
-                                                    <rect key="frame" x="282.33333333333331" y="17" width="40.666666666666664" height="20"/>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Detail" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="0.5" id="9Sd-Xu-I7D">
+                                                    <rect key="frame" x="287" y="18" width="36" height="17.666666666666668"/>
                                                     <autoresizingMask key="autoresizingMask"/>
-                                                    <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="17"/>
-                                                    <nil key="textColor"/>
+                                                    <color key="backgroundColor" red="0.4823529412" green="0.68627450980000004" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="15"/>
+                                                    <color key="textColor" red="0.070588235289999995" green="0.070588235289999995" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <color key="backgroundColor" red="0.4823529412" green="0.68627450980000004" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.4823529412" green="0.68627450980000004" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -58,15 +65,15 @@
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.4823529411764706" green="0.68627450980392157" blue="0.83137254901960778" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="Sya-sz-ZlX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HUI-HN-bGR"/>
                             <constraint firstItem="rOj-zl-0vy" firstAttribute="top" secondItem="Sya-sz-ZlX" secondAttribute="bottom" constant="100" id="JJJ-In-Ywd">
-                                <variation key="heightClass=compact" constant="10"/>
+                                <variation key="heightClass=compact" constant="1"/>
                             </constraint>
                             <constraint firstItem="Sya-sz-ZlX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="OfA-YF-cg8"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="rOj-zl-0vy" secondAttribute="bottom" constant="65" id="WpG-8U-gBv">
-                                <variation key="heightClass=compact" constant="15"/>
+                                <variation key="heightClass=compact" constant="0.0"/>
                             </constraint>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rOj-zl-0vy" secondAttribute="trailing" constant="25" id="dO1-x1-HAg">
                                 <variation key="heightClass=compact" constant="10"/>
@@ -99,7 +106,7 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bX4-bC-ycE">
                                         <rect key="frame" x="24.333333333333343" y="0.0" width="76.333333333333329" height="36"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-MediumItalic" family="Helvetica Neue" pointSize="30"/>
-                                        <nil key="textColor"/>
+                                        <color key="textColor" red="0.070588235289999995" green="0.070588235289999995" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d13-Af-mMV">
@@ -107,7 +114,10 @@
                                         <constraints>
                                             <constraint firstAttribute="width" constant="125" id="D8P-C6-YN8"/>
                                         </constraints>
-                                        <buttonConfiguration key="configuration" style="filled" title="Reset" buttonSize="medium"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Reset" buttonSize="medium">
+                                            <color key="baseForegroundColor" red="0.070588235289999995" green="0.070588235289999995" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="baseBackgroundColor" red="0.4823529412" green="0.68627450980000004" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        </buttonConfiguration>
                                         <connections>
                                             <action selector="resetPressed:" destination="U6p-GC-LOB" eventType="touchUpInside" id="aBA-g1-Jf6"/>
                                         </connections>
@@ -116,7 +126,7 @@
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="jGU-Tl-syI"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.75294117650000003" green="0.75294117650000003" blue="0.75294117650000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="JZO-lU-cwX" firstAttribute="centerX" secondItem="6wC-BI-1Br" secondAttribute="centerX" id="5RY-rm-O2h"/>
                             <constraint firstItem="JZO-lU-cwX" firstAttribute="centerY" secondItem="6wC-BI-1Br" secondAttribute="centerY" id="ubB-QJ-1gq"/>

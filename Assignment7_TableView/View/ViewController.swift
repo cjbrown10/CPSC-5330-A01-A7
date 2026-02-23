@@ -22,6 +22,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell1", for: indexPath)
         var content = cell.defaultContentConfiguration()
         
+        content.directionalLayoutMargins = NSDirectionalEdgeInsets(top: 2, leading: 10, bottom: 2, trailing: 10)
         content.text = collegeLogic.getCollege(at: indexPath.row)
         content.secondaryText = collegeLogic.getMascot(at: indexPath.row)
         
@@ -44,6 +45,14 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         performSegue(withIdentifier: "toMascot", sender: self)
+        tableView.deselectRow(at: indexPath, animated: true)
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        if view.frame.height < 500 {
+            return 35
+        }
+        return UITableView.automaticDimension
     }
     
     override func viewDidLoad() {
